@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - by siam</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h3 {
+            text-align: center;
+            
+        }
+
+        form {
+            border: 10px green solid;
+            padding: 30px;
+            margin: 25px;
+            background-color: rgba(166, 211, 183, 0.462);
+        }
+
+        #s {
+            color: rgba(17, 1, 3, 0.96);
+            display: block;
+            width: 100%;
+            background-color: green;
+        }
+
+        #r {
+
+            color: rgba(17, 1, 3, 0.96);
+            display: block;
+            width: 100%;
+            background-color: rgb(207, 13, 13);
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.573);
+            text-align: center;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Application Form</h3>
+    <form action="post">
+        <label for="name">Name...........: </label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br><br>
+        <label for="email">Email adress:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+
+        <br><br>
+        <label for="age">Age..............:</label>
+        <input type="number" name="age" id="age" placeholder="Enter your age">
+        <br><br>
+
+        <label for="number">Mobile.........: </label>
+        <input type="number" name="number" id="number" placeholder="Enter your number">
+        <br><br>
+
+        <label for="select">Which option best describes you?</label> <br><br>
+
+        <select name="select" id="select">
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Businessman">Businessman</option>
+            <option value="housewife">housewife</option>
+        </select>
+        <br><br>
+        Your religion:
+        <br>
+        <input type="radio" name="religion" id="islam" value="islam">
+        <label for="islam">Islam</label> <br>
+
+        <input type="radio" name="religion" id="hindu" value="hindu">
+        <label for="hindu">Hindu</label> <br>
+
+        <input type="radio" name="religion" id="another" value="another">
+        <label for="another">Another</label> <br><br>
+
+
+        Language and Frameworks: <br>
+        <input type="checkbox" name="c" id="c" value="yes">
+        <label for="c">C</label><br>
+
+        <input type="checkbox" name="c++" id="c++" value="yes">
+        <label for="c++">C++</label> <br>
+
+        <input type="checkbox" name="C#" id="C#" value="yes">
+        <label for="C#">C#</label><br>
+
+        <input type="checkbox" name="Java" id="Java" value="yes">
+        <label for="Java">Java</label><br>
+
+        <input type="checkbox" name="Python" id="Python" value="yes">
+        <label for="Python">Python</label><br>
+
+        <input type="checkbox" name="Javascript" id="Javascript" value="yes">
+        <label for="Javascript">Javascript</label><br>
+
+        <input type="checkbox" name="React" id="React" value="yes">
+        <label for="React">React</label><br>
+
+        <input type="checkbox" name="Angular" id="Angular" value="yes">
+        <label for="Angular">Angular</label> <br>
+
+        <input type="checkbox" name="Django" id="Django" value="yes">
+        <label for="Django">Django</label><br>
+
+        <input type="checkbox" name="Spring" id="Spring" value="yes">
+        <label for="Spring">Spring</label>
+
+        <br><br>
+        <label for="comment">Any comment or suggestions?</label> <br> <br>
+        <textarea name="comment" id="comment" placeholder="Enter your comment here" cols="30"></textarea> <br><br><br>
+
+        <input type="button" value="Submit" id="s">
+
+        <br>
+
+        <input type="reset" value="Reset" id="r">
+
+
+
+    </form>
+
+    <footer> Developer: Md. Hasibul Hasan Siam</footer>
+</body>
+
+</html>
